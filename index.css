@@ -27,10 +27,23 @@ ul {
 body {
 	font-family: "Overpass", sans-serif;
 	font-size: 15px;
+	background-color: hsl(216, 12%, 8%);
+	margin: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 
 button {
 	font-family: inherit;
+}
+
+.main-container, .thank-you {
+	background-color: hsl(213, 19%, 18%);
+	padding: 1.5rem;
+	border-radius: 0.625rem;
 }
 
 .attribution { 
