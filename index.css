@@ -39,6 +39,7 @@ body {
 button {
 	font-family: inherit;
 	cursor: pointer;
+	transition: 0.3s;
 }
 
 p {
@@ -84,14 +85,35 @@ p {
 	background-color: hsl(213, 20%, 22%);
 	border-radius: 50%;
 	padding-top: 0.2rem;
-	transition: 0.3s;
-}
-
-.main-container ul li button:hover {
+	
 	
 }
 
-.main-container ul 
+.main-container ul li button:hover {
+	background-color: hsl(25, 97%, 53%)
+}
+
+.main-container ul li button:focus {
+	background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+	background-color: hsl(25, 97%, 53%);
+	width: 100%;
+	padding: 0.8rem 0 0.6rem;
+	border: none;
+	border-radius: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.btn-submit:hover {
+	background-color: #fff;
+	color: hsl(25, 97%, 53%);
+}
+
+
 
 .attribution { 
 	font-size: 11px;
