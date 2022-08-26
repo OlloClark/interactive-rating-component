@@ -38,6 +38,7 @@ body {
 
 button {
 	font-family: inherit;
+	cursor: pointer;
 }
 
 p {
@@ -83,6 +84,11 @@ p {
 	background-color: hsl(213, 20%, 22%);
 	border-radius: 50%;
 	padding-top: 0.2rem;
+	transition: 0.3s;
+}
+
+.main-container ul li button:hover {
+	
 }
 
 .main-container ul 
