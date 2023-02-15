@@ -8,7 +8,7 @@ As I complete more front-end challenges, I'm learning that I take great satisfac
 
 ![desktop component view](./images/finished-card1.png)
 
-### New discoveries
+### New Discoveries
 
 In this case, I was actually happiest with going above and beyond. I wanted to explore turning the component into its own mini app, so I added in some code to allow the process to loop. It wasn't complicated, but it is satisfying to tie off loose ends.
 
